@@ -6,7 +6,7 @@ PHP functions to handle sending and receiving HTTP requests with CURL.
 # Installation
 Easy install with composer:
 ```
-composer require hxgf/http-request:0.1.0@dev
+composer require hxgf/http-request
 ```
 ```php
 use HTTPRequest\http;
