@@ -11,7 +11,7 @@ class http {
 
     $data_string = '';
     $data = [];
-    if ($args['data']){
+    if (isset($args['data'])){
       $data = $args['data'];
       foreach($args['data'] as $key=>$value) { $data_string .= $key . '=' . $value . '&'; }
     }
@@ -22,7 +22,7 @@ class http {
 
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
-    if ($args['method'] == 'GET'){
+    if (isset($args['method']) && $args['method'] == 'GET'){
       curl_setopt($ch, CURLOPT_URL, $url . '?' . $data_string);
     }else{
       curl_setopt($ch, CURLOPT_URL, $url);
@@ -33,7 +33,7 @@ class http {
     $result = curl_exec($ch);
     curl_close($ch);
 
-    if (strtolower($args['format']) == 'json'){
+    if (isset($args['format']) && strtolower($args['format']) == 'json'){
       $result = json_decode($result, true);
     }
 
