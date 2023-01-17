@@ -43,7 +43,7 @@ $api_data = http::get('https://external-api.com/v3/example-response', [
   ]
 ]);
 ```
-All data in the the 'data' array will be submitted as a querystring. For example: 
+Everything in the the 'data' array will be submitted as a querystring. For example: 
 ```bash
 https://external-api.com/v3/example-response?user_id=581146&api_key=696719xvckvzxspigh24y1e-b
 ```
@@ -58,7 +58,7 @@ $api_data = http::post('https://external-api.com/v3/example-response', [
   ]
 ]);
 ```
-All data in the 'data' array will be submitted as FormData.
+Everything in the 'data' array will be submitted as FormData.
 
 ## http::json($url, $parameters)
 Alias to `http::request()` using the `json_decode` parameter (returns an expected JSON response as a PHP array)
