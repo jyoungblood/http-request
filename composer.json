@@ -13,7 +13,7 @@
 	"keywords": ["utilities", "http requests", "http client", "curl"],
 	"autoload": {
 		"psr-4": {
-			"HTTPRequest\\": ["src/"]
+			"VPHP\\": ["src/"]
 		}
 	}
 }
