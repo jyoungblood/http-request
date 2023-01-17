@@ -49,7 +49,7 @@ https://external-api.com/v3/example-response?user_id=581146&api_key=696719xvckvz
 ```
 
 ## http::post($url, $parameters)
-Alias to `http::request` using the default `POST` method.
+Alias to `http::request` using the `POST` method.
 ```php
 $api_data = http::post('https://external-api.com/v3/example-response', [
   'data' => [
