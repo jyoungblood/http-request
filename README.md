@@ -26,7 +26,7 @@ $api_data = http::request('https://external-api.com/v3/example-response', [
     'Cache-Control' => 'no-cache',
     'Content-Type' => 'application/json',
   ],
-  'data' => [
+  'data' => [ // optional, will be submitted as querystring (GET) or FormData (POST)
     'user_id' => 581146,
     'api_key' => '696719xvckvzxspigh24y1e-b'
   ]
