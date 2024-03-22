@@ -4,8 +4,8 @@
  * @package    VPHP - HTTP Request
  * @version    1.2.0
  * @author     Jonathan Youngblood <jy@hxgf.io>
- * @license    https://github.com/hxgf/http-request/blob/master/LICENSE.md (MIT License)
- * @source     https://github.com/hxgf/http-request
+ * @license    https://github.com/jyoungblood/http-request/blob/master/LICENSE.md (MIT License)
+ * @source     https://github.com/jyoungblood/http-request
  */
 
 namespace VPHP;

@@ -1,6 +1,6 @@
 {
-	"name": "hxgf/http-request",
-  "homepage": "https://github.com/hxgf/http-request",
+	"name": "jyoungblood/http-request",
+  "homepage": "https://github.com/jyoungblood/http-request",
 	"description": "PHP functions to handle sending and receiving HTTP requests with CURL.",
 	"type": "library",
   "license": "MIT",
