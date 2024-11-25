@@ -1,4 +1,5 @@
-# VPHP - HTTP Request
+[<img src="https://raw.githubusercontent.com/jyoungblood/vphp.dev/refs/heads/master/public/vphp-logo-100.png">](https://vphp.dev)
+# HTTP Request
 
 Vanilla PHP functions to handle sending and receiving HTTP requests with CURL. This is a set of thin abstractions over a typical CURL request workflow with configurable options.
 
